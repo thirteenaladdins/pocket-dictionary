@@ -1,0 +1,19 @@
+.draggable-list-item {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: 1px solid #ccc;
+    cursor: pointer;
+    /* padding: 1rem */
+    /* margin-bottom: 1rem; */
+  }
+  
+  img {
+    margin-right: 10px;
+  }
+  
+  p {
+    /* text-align: center; */
+    justify-content: center;
+  }
+  

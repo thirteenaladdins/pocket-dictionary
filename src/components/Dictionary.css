@@ -1,0 +1,42 @@
+.dictionary {
+    margin: 0;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+draggable-list-item {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: 1px solid #ccc;
+    cursor: pointer;
+    /* padding: 1rem */
+    /* margin-bottom: 1rem; */
+}
+
+/* The container element */
+.scroller {
+    /* width: 300px; */
+    /* height: 100px; */
+    overflow-y: scroll;
+  }
+  
+  /* The scrollbar */
+  .scroller::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* The track */
+  .scroller::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* The thumb */
+  .scroller::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* The thumb on hover */
+  .scroller::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

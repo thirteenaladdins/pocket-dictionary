@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "test-chrome-extension",
+  "description": "Test Chrome Extension",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Open"
+  },
+  "background": {
+    "service_worker": "background.js"
+    },
+  "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }],
+
+    "permissions": [
+        "storage",
+        "notifications",
+        "contextMenus",
+        "tabs",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.google.com/",
+        "https://od-api.oxforddictionaries.com/*"
+    ]
+}
